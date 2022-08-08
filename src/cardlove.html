@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+
+<script>
+    var myArray = [
+    "menurut kamu pasangan yang perfect itu gimana sih?",
+    "menurut kamu, dalam sebuah hubungan seberapa penting sih waktu buat sendiri sendiri?",
+    "ceritain gimana sih cara ngedate paling perfect menurut kamu",
+    "gimana sih cara kamu ngasih tau kamu suka seseorang tanpa ngasih tau orang tersebut",
+    "apa yang kamu lakuin kalo ornag tua kamu ga setuju kalo kamu berhubungan dengan pasangan kamu?",
+    "kamu tetep temenan ga sih sama mantan mantan kamu",
+    "apa kamu bisa maafin kalo pasangan kamu selingkuh?",
+    "sebutin aktivitas yang pengen kamu lakuin bareng pasangan kamu",
+    "untuk saat ini apakah kamu siap untuk memulai sebuah hubungan?",
+    "ceritain pengalamn ngedate paling aneh/ngeselin",
+    "gimana sih cara dapetin perhatian kamu",
+    "jelasin relationship goals menurut kamu",
+    "ada gak sih 1 pertanyaan yang kamu harap bakal sering ditanyain sama pasangan kamu?",
+    "siapa sih pasangan yang menurut kamu relationship goals banget?",
+    "kalo kamu rasa hubungan kamu mulai ngebosenin, apa sih hal yang bisa bikin rasa bosen itu ilang?",
+    "lebih suka chat apa telfonan?",
+    "sebutin 3 hal yang wajib ada di pasangan kamu",
+    "sebutin sifat seseorang yang bisa bikin kamu ilfeel",
+    ];
+
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+         
+</script> 
+</head>
+<body>
+            
+
+    <div class="relative block p-8 border border-gray-100 shadow-xl rounded-xl place-content-center m-36">
+        <a class="relative block bg-black group" href="">
+            <img
+              class="absolute inset-0 object-cover w-full h-full transition-opacity opacity-75  group-hover:opacity-50"
+              src="https://www.hyperui.dev/photos/man-6.jpeg"
+              alt=""
+            />
+            <div class="relative p-8">
+              <p class="text-sm font-medium tracking-widest text-pink-500 uppercase">
+                Percintaan
+              </p>
+          
+              <p class="text-2xl font-bold text-white" id="randomItem"></p>
+              <div class="mt-64">
+                <div
+                  class="transition-all transform translate-y-8 opacity-0  group-hover:opacity-100 group-hover:translate-y-0"
+                >
+                  <p class="text-sm text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+                    perferendis hic asperiores quibusdam quidem voluptates doloremque
+                    reiciendis nostrum harum. Repudiandae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </a>
+        
+    </div>
+
+        
+<script>
+    document.getElementById('randomItem').innerHTML = randomItem;
+</script>
+</body>
+</html>
